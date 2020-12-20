@@ -15,7 +15,7 @@ $ git push origin feature-abc
 
 ```
 $ git checkout -b "release-vX.X.X"
-... do work
+... merge feature braches into release.
 $ git checkout orgin master
 $ git merge --squash release-vX.X.X
 $ git commit -m "Release vX.X.X"
