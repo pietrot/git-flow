@@ -1,5 +1,16 @@
 # GIT-FLOW
 
+## FEATURE BRANCH
+
+```
+$ git checkout -b "feature-abc"
+$ git push -u origin feature-abc
+... do work
+$ git add --all
+$ git commit -m "Fixed|Implemented|Refactored|Deprecated|Etc. ..."
+$ git push origin feature-abc
+```
+
 ## TAGGING RELEASES
 
 ```
