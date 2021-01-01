@@ -22,3 +22,13 @@ $ git commit -m "Release vX.X.X"
 $ git tag -a vX.X.X -m "Version X.X.X"
 $ git push origin vX.X.X
 ```
+
+## CLEAN UP
+
+```
+# delete branch locally
+git branch -d feature-abc
+
+# delete branch remotely
+git push origin --delete feature-abc
+```
